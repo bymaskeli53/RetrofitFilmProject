@@ -39,7 +39,7 @@ class MovieAdapter(private val movieList: MutableList<Movie>) : RecyclerView.Ada
         holder.binding.textviewDirector.text = movieList[position].director
         holder.binding.textviewTitle.text = movieList[position].title
         holder.binding.textviewReleasedate.text = movieList[position].release_date
-        holder.binding.backgroundView.setBackgroundColor(R.color.black)
+        //holder.binding.backgroundView.setBackgroundColor(R.color.black)
         holder.binding.button.setOnClickListener {
             alertDialogShow(holder,position)
 //            movieList.removeAt(position)
@@ -55,7 +55,7 @@ class MovieAdapter(private val movieList: MutableList<Movie>) : RecyclerView.Ada
         return movieList.size
 
     }
-    fun alertDialogShow(holder: MovieViewHolder,position: Int){
+    private fun alertDialogShow(holder: MovieViewHolder, position: Int){
          AlertDialog.Builder(holder.itemView.context)
             .setMessage("Do you really want to remove?")
             .setPositiveButton("Yes") { dialogInterface: DialogInterface, _: Int ->
