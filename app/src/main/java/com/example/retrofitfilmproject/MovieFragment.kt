@@ -16,10 +16,9 @@ import java.util.ArrayList
 class MovieFragment : Fragment(R.layout.fragment_movies) {
 
     private lateinit var _binding : FragmentMoviesBinding
-    private var cryptoModels: List<Movie>? = null
+    private var movieModels: List<Movie>? = null
     private val binding get() = _binding!!
     private var recyclerViewAdapter: MovieAdapter? = null
-    private lateinit var response: Response<List<Movie>>
 
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
@@ -43,8 +42,8 @@ class MovieFragment : Fragment(R.layout.fragment_movies) {
                     if (response.isSuccessful) {
                         Toast.makeText(activity,"Successful",Toast.LENGTH_LONG).show()
                         response.body()?.let {
-                            cryptoModels = it.results
-                            recyclerViewAdapter = MovieAdapter(cryptoModels!!)
+                            movieModels = it.results
+                            recyclerViewAdapter = MovieAdapter(movieModels!! as MutableList<Movie>)
                             binding.recyclerview.adapter = recyclerViewAdapter
 
                         }
@@ -59,7 +58,7 @@ class MovieFragment : Fragment(R.layout.fragment_movies) {
             })
 
 
-          // response =  service.searchMovies()
+
 
 
 
@@ -70,8 +69,4 @@ class MovieFragment : Fragment(R.layout.fragment_movies) {
 
 
 
-    override fun onDestroyView() {
-        super.onDestroyView()
-       // _binding = null
-    }
 }
