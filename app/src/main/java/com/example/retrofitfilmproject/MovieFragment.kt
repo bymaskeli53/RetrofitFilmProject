@@ -29,6 +29,8 @@ class MovieFragment : Fragment(R.layout.fragment_movies),MovieAdapter.OnItemClic
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         _binding = FragmentMoviesBinding.bind(view)
+        Log.e("error","onview created çalıştı")
+        println("onback pressed çalıştı")
 
         navigationConttoller = Navigation.findNavController(view)
 

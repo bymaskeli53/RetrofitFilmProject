@@ -8,7 +8,7 @@
     <fragment
         android:id="@+id/movieFragment"
         android:name="com.example.retrofitfilmproject.MovieFragment"
-        android:label="fragment_movies"
+        android:label="Movies"
         tools:layout="@layout/fragment_movies" >
         <action
             android:id="@+id/action_movieFragment_to_detailsFragment"
@@ -18,7 +18,7 @@
     <fragment
         android:id="@+id/detailsFragment"
         android:name="com.example.retrofitfilmproject.DetailsFragment"
-        android:label="fragment_detail"
+        android:label="{model}"
         tools:layout="@layout/fragment_detail" >
         <argument
             android:name="model"

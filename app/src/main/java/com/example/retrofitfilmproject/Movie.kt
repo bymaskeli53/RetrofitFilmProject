@@ -8,7 +8,11 @@ data class Movie(
     val title: String,
     val director: String,
     val release_date: String
-): Parcelable
+): Parcelable{
+    override fun toString(): String {
+        return title
+    }
+}
 
 
 
