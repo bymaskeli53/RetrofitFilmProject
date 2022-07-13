@@ -25,18 +25,18 @@ class MovieAdapter(
         RecyclerView.ViewHolder(binding.root) {
 
         init {
-            binding.root.setOnClickListener {
-                val position = adapterPosition
-                println(position)
-                Log.e("dwad", position.toString())
-                if (position != RecyclerView.NO_POSITION) {
-                    val item = movieList.get(position)
-                    if (item != null) {
-                        listener.onItemClick(item)
-                    }
-                }
-
-            }
+//            binding.root.setOnClickListener {
+//                val position = adapterPosition
+//                println(position)
+//                Log.e("dwad", position.toString())
+//                if (position != RecyclerView.NO_POSITION) {
+//                    val item = movieList.get(position)
+//                    if (item != null) {
+//                        listener.onItemClick(item)
+//                    }
+//                }
+//
+//            }
         }
 
 
@@ -62,7 +62,7 @@ class MovieAdapter(
         holder.binding.textviewReleasedate.text = movieList[position].release_date
         holder.itemView.setOnClickListener {
 
-            val item = movieList[position - 1]
+            val item = movieList[position]
             listener.onItemClick(item)
 
         }
@@ -91,7 +91,7 @@ class MovieAdapter(
                 notifyItemRemoved(position)
                 notifyItemRangeChanged(position, movieList.size)
                 holder.itemView.visibility = View.GONE
-                val deletedItem = movieList[position - 1].title
+                val deletedItem = movieList[position].title
                 Toast.makeText(
                     holder.itemView.context,
                     "Deleted film is $deletedItem ",
