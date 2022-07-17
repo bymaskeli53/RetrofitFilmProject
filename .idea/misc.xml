@@ -5,9 +5,21 @@
       <map>
         <entry key="..\:/Users/gundo/AndroidStudioProjects/RetrofitFilmProject/app/src/main/res/drawable/gradient.xml" value="0.2105" />
         <entry key="..\:/Users/gundo/AndroidStudioProjects/RetrofitFilmProject/app/src/main/res/layout-large/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/gundo/AndroidStudioProjects/RetrofitFilmProject/app/src/main/res/layout-large/fragment_detail.xml" value="0.153125" />
+        <entry key="..\:/Users/gundo/AndroidStudioProjects/RetrofitFilmProject/app/src/main/res/layout-large/fragment_movies.xml" value="0.25" />
+        <entry key="..\:/Users/gundo/AndroidStudioProjects/RetrofitFilmProject/app/src/main/res/layout-large/item_movie.xml" value="0.22" />
         <entry key="..\:/Users/gundo/AndroidStudioProjects/RetrofitFilmProject/app/src/main/res/layout-normal/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/gundo/AndroidStudioProjects/RetrofitFilmProject/app/src/main/res/layout-normal/fragment_detail.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/gundo/AndroidStudioProjects/RetrofitFilmProject/app/src/main/res/layout-normal/fragment_movies.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/gundo/AndroidStudioProjects/RetrofitFilmProject/app/src/main/res/layout-normal/item_movie.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/gundo/AndroidStudioProjects/RetrofitFilmProject/app/src/main/res/layout-small/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/gundo/AndroidStudioProjects/RetrofitFilmProject/app/src/main/res/layout-small/fragment_detail.xml" value="0.25" />
+        <entry key="..\:/Users/gundo/AndroidStudioProjects/RetrofitFilmProject/app/src/main/res/layout-small/fragment_movies.xml" value="0.33" />
+        <entry key="..\:/Users/gundo/AndroidStudioProjects/RetrofitFilmProject/app/src/main/res/layout-small/item_movie.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/gundo/AndroidStudioProjects/RetrofitFilmProject/app/src/main/res/layout-xlarge/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/gundo/AndroidStudioProjects/RetrofitFilmProject/app/src/main/res/layout-xlarge/fragment_detail.xml" value="0.153125" />
+        <entry key="..\:/Users/gundo/AndroidStudioProjects/RetrofitFilmProject/app/src/main/res/layout-xlarge/fragment_movies.xml" value="0.153125" />
+        <entry key="..\:/Users/gundo/AndroidStudioProjects/RetrofitFilmProject/app/src/main/res/layout-xlarge/item_movie.xml" value="0.25" />
         <entry key="..\:/Users/gundo/AndroidStudioProjects/RetrofitFilmProject/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/gundo/AndroidStudioProjects/RetrofitFilmProject/app/src/main/res/layout/fragment_detail.xml" value="0.2953703703703704" />
         <entry key="..\:/Users/gundo/AndroidStudioProjects/RetrofitFilmProject/app/src/main/res/layout/fragment_movies.xml" value="0.33" />
